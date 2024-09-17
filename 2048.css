@@ -1,0 +1,126 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+  background: #fbf8ef;
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 4rem); /* Adjust for better scaling */
+  margin: 10px;
+  color: #867c73;
+}
+
+.score-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  background-color: #867c73;
+  color: rgb(255, 255, 255);
+  font-size: clamp(1rem, 2vw, 2rem);
+  padding: clamp(20px, 5vw, 20px);
+  margin: 10px;
+  border-radius: 20px;
+  padding: clamp(0.5rem, 2vw, 1.25rem); /* Responsive padding */
+  margin: clamp(0.5rem, 2vw, 1rem); /* Responsive margin */
+}
+hr {
+  width: clamp(200px, 50%, 400px); /* Responsive width */
+}
+
+#board {
+  width: clamp(200px, 20vw, 400px);
+  height: clamp(200px, 20vw, 400px);
+  /* background-color: #cd5b5;  */
+  background-color: #bbada0;
+  border: 6px solid #bbada0;
+  margin: 0 auto;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tile {
+  width: clamp(45px, 4.4vw, 140px); /* More responsive width */
+  height: clamp(45px, 4.4vw, 140px); /* More responsive height */
+  font-size: clamp(1rem, 2vw, 2rem); /* Responsive font size */
+  border: clamp(2px, 0.3vw, 5px) solid #bbada0;
+  border-radius: clamp(2px, 0.05vw, 10px);
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* colored tiles */
+.empty {
+  background-color: #cdc5b5;
+}
+
+.x2 {
+  background-color: #eee4da;
+  color: #727371;
+}
+
+.x4 {
+  background-color: #ece0ca;
+  color: #727371;
+}
+
+.x8 {
+  background-color: #f4b17a;
+  color: white;
+}
+
+.x16 {
+  background-color: #f59575;
+  color: white;
+}
+
+.x32 {
+  background-color: #f57c5f;
+  color: white;
+}
+
+.x64 {
+  background-color: #f65d3b;
+  color: white;
+}
+
+.x128 {
+  background-color: #edce71;
+  color: white;
+}
+
+.x256 {
+  background-color: #edcc63;
+  color: white;
+}
+
+.x512 {
+  background-color: #edc651;
+  color: white;
+}
+
+.x1024 {
+  background-color: #eec744;
+  color: white;
+}
+
+.x2048 {
+  background-color: #ecc230;
+  color: white;
+}
+
+.x4096 {
+  background-color: #fe3d3d;
+  color: white;
+}
+
+.x8192 {
+  background-color: #ff2020;
+  color: white;
+}
